@@ -34,6 +34,7 @@ The following packages are used:
 - [scipy](https://www.scipy.org/install.html)
 - [numpy](https://docs.scipy.org/doc/numpy/user/install.html)
 - [pyquaternion](http://kieranwynn.github.io/pyquaternion/)
+- [matplotlib](https://matplotlib.org/users/installing.html)
 
 ### Getting the constellation files
 You should decompress the `data/constellations.zip` file which is provided. We suggest keeping the .txt files in a directory named `constellations`, within the `data` directory.
