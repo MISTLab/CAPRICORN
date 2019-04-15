@@ -1,5 +1,7 @@
 # CAPRICORN
 
+Communication Aware Place Recognition using Interpretable Constellations of Objects for Robot Networks.
+
 This repository contains the code to reproduce the results of our paper:
 Benjamin Ramtoula, Ricardo de Azambuja, Giovanni Beltrame. **Data-Efficient Decentralized Place Recognition with 3D constellations of Objects.** Submitted to the International Symposium on Multi-Robot and Multi-Agent Systems (MRS), 2019.
 
