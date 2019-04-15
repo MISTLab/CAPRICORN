@@ -23,8 +23,15 @@ Each position is expressed in the camera frame.
 
 ## Getting ready
 
+First, start by downloading our repository.
+
 ### Python
 All these scripts were tested with Python 3.7.
+
+The following packages are used:
+- [scipy](https://www.scipy.org/install.html)
+- [numpy](https://docs.scipy.org/doc/numpy/user/install.html)
+- [pyquaternion](http://kieranwynn.github.io/pyquaternion/)
 
 ### Getting the constellation files
 You should decompress the `data/constellations.zip` file which is provided. We suggest keeping the .txt files in a directory named `constellations`, within the `data` directory.
@@ -32,7 +39,7 @@ You should decompress the `data/constellations.zip` file which is provided. We s
 ### Download the sequence
 In order to compute the ground truth score, and to understand the constellation and verify their validity by checking the RGB frames, you need to download the `fr3/long_office_household` sequence of the TUM-RGBD dataset here: <https://vision.in.tum.de/data/datasets/rgbd-dataset/download>
 
-Once you have downloaded the compressed file, you can extract it and place the folder in the `data` directory. You can now check and compare the provided constellation as well as the results to the RGB frames of the sequence.
+Once you have downloaded the compressed file, you can extract it and place the folder in the `data` directory. You can now check and compare the provided constellations to the RGB frames of the sequence and make sense of the results.
 
 
 ## Simulate and compute loop closures
@@ -53,7 +60,7 @@ At the top of the script there are several paths that are defined. Make sure the
 
 The default folder to save outputs is `../results`. If you want to use this, you should create it yourself before running the script.
 
-Once you have chosen the right settings and paths you can run the simulations. This will take more than a few minutes since many computations are performed, and cases simulated.
+Once you have chosen the right settings and paths you can run the simulations. This can take a little time since many simulations are performed.
 
 To run the script, simply call from the `src` directory:
 ```

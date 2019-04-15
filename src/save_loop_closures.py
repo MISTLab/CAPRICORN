@@ -2,13 +2,22 @@ import settings
 from parse_tools import get_constel_files_in_folder
 import numpy as np
 
-# Give all necessary files path
-base_dir = '../data/'
-groundtruth_file = base_dir+'rgbd_dataset_freiburg3_long_office_household/groundtruth.txt'
+######################### Give all necessary files path
+# Path to the data directory, which contains the sequence folder and the constellations folder
+base_dir = '../data/' 
+
+# Path to the groundtruth.txt file containing all the camera poses in the sequence
+groundtruth_file = base_dir+'rgbd_dataset_freiburg3_long_office_household/groundtruth.txt' 
+
+# Path to the constellations folder
 constellation_folder = base_dir+'/constellations'
+
+# Path where the results are stored
+save_folder = '../results/'
+
+# Load the settings and the constellations from the files.
 settings.init(base_dir+'coco.names')
 constel_files = get_constel_files_in_folder(constellation_folder)
-save_folder = '../results/'
 
 ######################### Save the ground truth closures
 print('Saving ground truth loop closure scores, based on distances between estimated scenes.')

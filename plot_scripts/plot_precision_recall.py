@@ -8,7 +8,7 @@ from sklearn.metrics import auc
 gt_scores = np.load('../results/groundtruth_scores.npy')
 gt_dist = np.load('../results/groundtruth_distances.npy')
 detected_centralized_closures = np.load('../results/cen_scores.npy')
-detected_decentralized_closures = np.load('../results/dec_scores.npy')
+detected_decentralized_closures = np.load('../results/dec_scores_10.npy')
 
 # Score over which ground truths are considered valid
 groundtruth_closures = gt_dist < 2.0

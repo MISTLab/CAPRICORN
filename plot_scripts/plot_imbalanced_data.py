@@ -7,7 +7,7 @@ semantic_descriptors = []
 robots_verified = []
 
 
-semantic_desc_file_path = '../results/dec_sem_desc.npy'
+semantic_desc_file_path = '../results/dec_sem_desc_10.npy'
 
 semantic_descriptors = np.load(semantic_desc_file_path)
 semantic_descriptors_global = np.sum(semantic_descriptors,axis=(0,1))

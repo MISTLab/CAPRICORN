@@ -5,7 +5,7 @@ import matplotlib.colorbar as colorbar
 
 # Load detections
 detected_centralized_closures = np.load('../results/cen_scores.npy')
-detected_decentralized_closures = np.load('../results/dec_scores.npy')
+detected_decentralized_closures = np.load('../results/dec_scores_10.npy')
 gt_scores = np.load('../results/groundtruth_scores.npy')
 
 detected_centralized_best_idx = np.argmax(
