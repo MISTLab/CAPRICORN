@@ -86,3 +86,6 @@ python plot_confusion_matrix.py
 python plot_data_comm.py
 ```
 
+#### References
+A brief summary of this work is available in:
+- B. Ramtoula, R. De Azambuja, and G. Beltrame, “**Data-efficient decentralized place recognition with 3D constellations of objects**” in 2019 International Symposium on Multi-Robot and Multi-Agent Systems (MRS). New Brunswick, NJ, Aug. 2019. [extended abstract]
