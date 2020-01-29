@@ -3,7 +3,7 @@
 Communication Aware Place Recognition using Interpretable Constellations of Objects for Robot Networks.
 
 This repository contains the code to reproduce the results of our paper:
-Benjamin Ramtoula, Ricardo de Azambuja, Giovanni Beltrame. **CAPRICORN: Communication Aware Place Recognition using Interpretable Constellations of Objects in Robot Networks** Submitted to the International Conference on Robotics and Automation (ICRA), 2020.
+Benjamin Ramtoula, Ricardo de Azambuja, Giovanni Beltrame. **CAPRICORN: Communication Aware Place Recognition using Interpretable Constellations of Objects in Robot Networks** accepted at the International Conference on Robotics and Automation (ICRA), 2020.
 
 
 ## Overview
